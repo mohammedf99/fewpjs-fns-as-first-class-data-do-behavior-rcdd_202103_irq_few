@@ -32,4 +32,4 @@ const display = document.querySelector('#greeting');
   display.innerText = '';
   display.append(time);
   
-
+}
