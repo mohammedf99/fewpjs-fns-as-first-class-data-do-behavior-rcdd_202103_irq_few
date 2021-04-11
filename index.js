@@ -30,6 +30,6 @@ function greet(timeString) {
 function displayMessage(time){
 const display = document.querySelector('#greeting');
   display.innerText = '';
-  display.append(time);
+  display.innerText = time;
   
 }
